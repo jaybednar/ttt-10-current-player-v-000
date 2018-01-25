@@ -4,6 +4,6 @@ def turn_count(board)
     if position != " " || position != "" || position != nil
       count += 1 
     end
-    return count
+  return count
   end 
 end 
