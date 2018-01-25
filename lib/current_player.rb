@@ -17,6 +17,5 @@ end
 # end
 
 def current_player(board) 
-  marker = turn_count(board).even? ? "X" : "O"
-  return marker
+  return turn_count(board).even? ? "X" : "O"
 end
